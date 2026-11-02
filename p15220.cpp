@@ -20,7 +20,7 @@ void dfs(int r , int c , int used , int len){
 			continue;
 		}
 		
-		// 3. 海拔相同不能走（新增）
+		// 3. 海拔相同不能走
 		if (a[nr][nc] == a[r][c]) {
 			continue;
 		}
